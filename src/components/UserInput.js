@@ -43,5 +43,4 @@ class UserInput extends Component {
     )
   }
 }
-
 export default connect()(UserInput);
