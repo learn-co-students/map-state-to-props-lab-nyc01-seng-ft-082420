@@ -6,10 +6,11 @@ class Users extends Component {
     let users = this.props.users.map((user, index) => <li key={index}>{user.username}</li>);
     return (
       <div>
+        {users.length}
         <ul>
           Users!
           {users}
-          {users.length}
+
         </ul>
       </div>
     )
